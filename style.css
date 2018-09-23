@@ -18,36 +18,37 @@ body {
     list-style: none;
     float: left;
     margin: 0 50px;
-    height: 300px;
-    width: 10px;
-    background: #fff;
-}
-
-.container ul li:before {
-    content: '';
-    position: absolute;
-    top: -30px;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    background: #333;
-    border-top-left-radius: 2px;
-    border-top-left-radius: 2px;
-}
-
-.container ul li:after {
-    content: '';
-    position: absolute;
-    top: -30px;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    background: #333;
-    border-top-left-radius: 2px;
-    border-top-left-radius: 2px;
+    height: 150px;
+    width: 20px;
+    border-radius: 12px;
 }
 
 .container ul li:nth-child(1) {
-    background: #ffd0d0;
-    box-shadow: 0 0 80px #f00, 0 0 80px #f00, 0 0 80px #f00;
+    background: #4DEEEA;
+    box-shadow: 0 0 80px #4DEEEA, 0 0 50px #4DEEEA, 0 0 50px #4DEEEA;
+}
+.container ul li:nth-child(2) {
+    background: #c7f8a1;
+    box-shadow: 0 0 80px #74EE15, 0 0 50px #74EE15, 0 0 50px #74EE15;
+}
+.container ul li:nth-child(3) {
+    background: #fff599;
+    box-shadow: 0 0 80px #ffe700, 0 0 50px #ffe700, 0 0 50px #ffe700;
+}
+.container ul li:nth-child(4) {
+    background: #fab2ff;
+    box-shadow: 0 0 80px #f000ff, 0 0 50px #f000ff, 0 0 50px #f000ff;
+}
+.container ul li:nth-child(5) {
+    background: #b2bbff;
+    box-shadow: 0 0 80px #001eff, 0 0 50px #001eff, 0 0 50px #001eff;
+}
+.container ul li:nth-child(6) {
+    background: #ffbd84;
+    box-shadow: 0 0 80px #fa7d00, 0 0 50px #fa7d00, 0 0 50px #fa7d00;
+}
+
+.container ul li:hover {
+    background: #262626;
+    box-shadow: none;
 }
